@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="getBalance()">
+    <h2>User Dashboard</h2>
+    <p id="balance">Balance: ₹0</p>
+
+    <input type="number" id="depositAmount" placeholder="Enter deposit amount">
+    <button onclick="deposit()">Deposit</button>
+
+    <input type="number" id="withdrawAmount" placeholder="Enter withdrawal amount">
+    <button onclick="withdraw()">Withdraw</button>
+
+    <button onclick="logout()">Logout</button>
+    <script src="client.js"></script>
+</body>
+</html>
